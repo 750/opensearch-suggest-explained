@@ -1,0 +1,122 @@
+// this is quite easy
+[
+  "alfon",
+  [
+    "alfons 4 fasl",
+    "alfonso cuaron",
+    "alfons mucha",
+    "alfonsina y el mar",
+    "alfonso",
+    "alfons",
+    "alfonso marina",
+    "alfonso xiii",
+    "alfonso limbus",
+    "alfons basta boi"
+  ],
+  [],
+  {
+    "google:fieldtrialtriggered": true,
+    "google:suggestdetail": [
+      {},
+      {
+        // description - rendered!
+        "a": "Альфонсо Куарон — Мексиканский кинорежиссёр и сценарист",
+        
+        // not rendered
+        "dc": "#3e5f9a",
+
+        // image - rendered!
+        "i": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm6gFs-faKcvmnNWYfa9jwH4v6OZ9EV3q5vURoNthCoYiLQnY8fStmnkLGhQ&s=10",
+        
+        // probably a query param to be used on search
+        "q": "gs_ssp=eJzjYtfP1TfIMy8zYPTiS8xJy88rzldILk0sys8DAGHFCEs",
+
+        // not rendered
+        "t": "Alfonso Cuaron"
+      },
+      {
+        "a": "Альфонс Муха — Чешский живописец",
+        "dc": "#424242",
+        "i": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrXLLF6QFz_wiLTIwa4yQI0F0wEYnwd-oynZnUZQByY-bFag9zPx7ExqqsFA&s=10",
+        "q": "gs_ssp=eJzj4tDP1TcoiM-rMGD04knMScvPK1bILU3OSAQAXgIH-w",
+        "t": "Alfons Mucha"
+      },
+      {
+        "a": "Трек – Мерседес Соса",
+        "dc": "#424242",
+        "i": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1wfSfgykecNa-9OqhaeObpe7A7NKGZ_z6iAk8SLS4FLFrvTVww8GnD-bL6g&s=10",
+        "q": "gs_ssp=eJzj4tFP1zcsNjDNLSgqiTdg9BJKzEnLzyvOzEtUqFRIzVHITSwCAL1eCzk",
+        "t": "Alfonsina y el mar"
+      },
+      {},
+      {},
+      {},
+      {
+        "a": "Бывший Король Испании",
+        "dc": "#424242",
+        "i": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2cPj-AtZvm47DpMooDhzAxkirsY-eK6saghe2PYSO-a0V5wSCMYzfJLD6-Q&s=10",
+        "q": "gs_ssp=eJzjYtfP1TcoNiozYPTiScxJy88rzleoyMzMBABRvwd0",
+        "t": "Alfonso XIII"
+      },
+      {},
+      {
+        "a": "Трек – Alfons",
+        "dc": "#424242",
+        "i": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA0jIJwylpO5eaE9-7tgPYlSBe72PvJofAhf0G0l6eAQ&s=10",
+        "q": "gs_ssp=eJzj4tVP1zc0TItPyUguLDcwYPQSSMxJy88rVkhKLC5JVEjKzwQAsHAK3g",
+        "t": "Basta Boi"
+      }
+    ],
+    "google:suggestsubtypes": [
+      // i don't think these are used
+      [
+        512,
+        433,
+        131
+      ],
+      [
+        512,
+        395,
+        424,
+        410
+      ],
+      [
+        512,
+        395,
+        408,
+        424,
+        410
+      ],
+      [
+        512,
+        395,
+        408,
+        424
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ],
+      [
+        512,
+        395,
+        424,
+        410
+      ],
+      [
+        512
+      ],
+      [
+        512,
+        395,
+        408,
+        424
+      ]
+    ]
+  }
+]

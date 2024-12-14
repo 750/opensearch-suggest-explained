@@ -1,0 +1,139 @@
+[
+  // query string ("Suggestion prefix")
+  "alfon",
+
+  // suggestions ("Search terms")
+  [
+    "alfonso cuaron",
+    "alfonso cuaron",
+    "alfonso",
+    "alfons mucha",
+    "alfons 4 fasl",
+    "alfonso marina",
+    "alfonsina y el mar",
+    "alfonso limbus",
+    "alfons mais",
+    "alfonso peduto"
+  ],
+
+  // descriptions - empty for regular text completions
+  [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+
+  // Query URLs - usually empty
+  [],
+
+  // the 5th item contains anything that doesn't fit in Opensearch spec
+  {
+    // Need some research
+    "google:clientdata": {
+      "bpc": false,
+      "tlw": false
+    },
+
+    // finally some sweet useful data!
+    "google:suggestdetail": [
+      {},
+      {
+        // this is base64 of a protobuf: https://source.chromium.org/chromium/chromium/src/+/main:out/android-Debug/gen/third_party/omnibox_proto/entity_info.pb.h;l=133;drc=8ff4f09f8bbc04e69f0f20144a2005eb4c1eed53;bpv=0;bpt=1
+        // https://source.chromium.org/chromium/chromium/src/+/main:third_party/omnibox_proto/entity_info.proto;l=38;drc=8ff4f09f8bbc04e69f0f20144a2005eb4c1eed53?q=gs_ssp&sq=&ss=chromium%2Fchromium%2Fsrc
+        // chromium renders these fields:
+        "google:entityinfo": "CgcvbS8wbjd2EmnQkNC70YzRhNC+0L3RgdC+INCa0YPQsNGA0L7QvSDigJQg0JzQtdC60YHQuNC60LDQvdGB0LrQuNC5INC60LjQvdC+0YDQtdC20LjRgdGB0ZHRgCDQuCDRgdGG0LXQvdCw0YDQuNGB0YIydGh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1FYbVFQWTRZZTE5LUhoanZzb0JHcU1BT205NUZXWWEzdTVBSnNrWU9ITXBVOEJVS3JNSDBTVlI4byZzPTEwOg5BbGZvbnNvIEN1YXJvbkoHIzNlNWY5YVI2Z3Nfc3NwPWVKempZdGZQMVRmSU15OHpZUFRpUzh4Snk4OHJ6bGRJTGswc3lzOERBR0hGQ0VzcAY="
+        // this particular protobuf is this:
+        // {
+        //   "entity_id": "/m/0n7v",
+        //   "description": "Альфонсо Куарон — Мексиканский кинорежиссёр и сценарист",
+        //   "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXmQPY4Ye19-HhjvsoBGqMAOm95FWYa3u5AJskYOHMpU8BUKrMH0SVR8o&s=10",
+        //   "text": "Alfonso Cuaron",
+        //   "color": "#3e5f9a",
+        //   "params": "gs_ssp=eJzjYtfP1TfIMy8zYPTiS8xJy88rzldILk0sys8DAGHFCEs",
+        //   "category": 6
+        // }
+      },
+      {},
+      {
+        "google:entityinfo": "CggvbS8wcF9ueBI90JDQu9GM0YTQvtC90YEg0JzRg9GF0LAg4oCUINCn0LXRiNGB0LrQuNC5INC20LjQstC+0L/QuNGB0LXRhjJ0aHR0cHM6Ly9lbmNyeXB0ZWQtdGJuMC5nc3RhdGljLmNvbS9pbWFnZXM/cT10Ym46QU5kOUdjUXVSSUU5VEFaQmxWXzVxcEd5ZURTQ0ZrM3NRXzZOV2p3QkZ2TFppUXNsQV8tcXNTSERock9Hbm5ZJnM9MTA6DEFsZm9ucyBNdWNoYUoHIzQyNDI0MlI1Z3Nfc3NwPWVKemo0dERQMVRjb2lNLXJNR0QwNGtuTVNjdlBLMWJJTFUzT1NBUUFYZ0lILXdwAnAG"
+      },
+      {},
+      {},
+      {
+        "google:entityinfo": "CgwvZy8xczA1bXBydF8SJtCi0YDQtdC6IOKAkyDQnNC10YDRgdC10LTQtdGBINCh0L7RgdCwMnRodHRwczovL2VuY3J5cHRlZC10Ym4wLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NSbGRDalp4dHZUV1k5dThLTk8yYWlYbXNRVGdkalVFSW5hTWJuTkx0YUJMNXFNMFZxYWxZZUxWS1Emcz0xMDoSQWxmb25zaW5hIHkgZWwgbWFySgcjNDI0MjQyUkJnc19zc3A9ZUp6ajR0RlAxemNzTmpETkxTZ3FpVGRnOUJKS3pFbkx6eXZPekV0VXFGUkl6VkhJVFN3Q0FMMWVDemtwAg=="
+      },
+      {},
+      {},
+      {
+        "google:entityinfo": "Cg0vZy8xMWhmZnNucjhqEknQkNC70YzRhNC+0L3RgdC+INCf0LXQtNGD0YLQviDigJQg0KHQtdGC0LXQstCw0Y8g0LfQvdCw0LzQtdC90LjRgtC+0YHRgtGMMnRodHRwczovL2VuY3J5cHRlZC10Ym4wLmdzdGF0aWMuY29tL2ltYWdlcz9xPXRibjpBTmQ5R2NUXzlKV0dFLXNaS09kdVFYNFNNSzBia3BneXVhSnJPVy0waVkwU0dGT0NGV21hdklaS3dlV1ZtbDgmcz0xMDoOYWxmb25zbyBwZWR1dG9KByM0MjQyNDJSPmdzX3NzcD1lSnpqNHRWUDF6YzB6RWhMSzg0cnNzZ3lZUFRpUzh4Snk4OHJ6bGNvU0UwcExja0hBSjduQ3BRcAJwBg=="
+      }
+    ],
+    "google:suggestrelevance": [
+      1251,
+      1250,
+      601,
+      600,
+      555,
+      554,
+      553,
+      552,
+      551,
+      550
+    ],
+    "google:suggestsubtypes": [
+      [
+        512,
+        355
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ],
+      [
+        512,
+        433,
+        131
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ],
+      [
+        512
+      ]
+    ],
+    "google:suggesttype": [
+      "QUERY",
+      "ENTITY",
+      "QUERY",
+      "ENTITY",
+      "QUERY",
+      "QUERY",
+      "ENTITY",
+      "QUERY",
+      "QUERY",
+      "ENTITY"
+    ],
+    "google:verbatimrelevance": 851
+  }
+]

@@ -1,0 +1,54 @@
+[
+  "gosusl",
+  [
+    "https://esia.gosuslugi.ru/login",
+    "gosuslugi.ru личный кабинет",
+    "https://gosuslugi.ru",
+    "gosuslugi.ru",
+    "gosuslugi вход в личный кабинет",
+    "gosuslugi crt",
+    "gosusligi.ru",
+    "gosuslugi.ru личный кабинет войти",
+    "gosuslugi.ru личный кабинет московская область",
+    "госуслуги"
+  ],
+  [
+    "Портал государственных услуг Российской Федерации",
+    "",
+    "Портал государственных услуг Российской Федерации",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  [],
+  {
+    "google:suggesttype": [
+      "NAVIGATION",
+      "QUERY",
+      "QUERY",
+      "QUERY",
+      "QUERY",
+      "QUERY",
+      "QUERY",
+      "QUERY",
+      "QUERY",
+      "QUERY"
+    ],
+    "yandex:answer": [],
+    "rich": {
+      "position": 1,
+      "template": "nav",
+      "thumb": {
+        "color": "#ffffff",
+        "logo_main": "https://storage.mds.yandex.net/get-browser/38105/dashboard/ViA1DE2AMujOKPZ41C2bqw.png"
+      },
+      "cacheable": [
+        "thumb.logo_main"
+      ]
+    }
+  }
+]
